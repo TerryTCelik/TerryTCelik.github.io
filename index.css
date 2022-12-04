@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+    display:grid;                     
+    align-items: center;  
+    font-family: monaco, monospace;
+}
+
+.college{
+    background-color: rgb(207, 159, 87);
+    border-radius: 2%;
+    border-style: double;
+    display: inline-block;
+    padding: 2%;
+    margin: 2%;
+}
+
+#edu_button{
+    background-color: rgb(207, 159, 87);
+    border-radius: 2%;
+    border-style: double;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    font-weight: bold;
+}
+
+#edu_button:hover{
+    background-color: rgb(204, 174, 130);
+    border-radius: 2%;
+    border-style: double;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+}
+
+
+.college_text{
+    font-style: italic;
+}
+
+#error_message{
+    color: brown;   
+}
