@@ -1,0 +1,20 @@
+{
+  "college_degrees": [
+    {
+      "college": {
+        "school": "Hacettepe University",
+        "program_major": "Medicine",
+        "type": "BS",
+        "year_conferred": "2018"
+      }
+    },
+    {
+      "college": {
+        "school": "Boston University",
+        "program_major": "Software Development",
+        "type": "MS",
+        "year_conferred": "2024"
+      }
+    }
+  ]
+}
