@@ -1,0 +1,31 @@
+{
+	"certificates": [{
+			"certificate": {
+				"name": "Microsoft Certified Azure Fundamentals",
+				"date": "Jan 2020",
+				"icon_url": "BS"
+			}
+		},
+		{
+			"certificate": {
+				"name": "ISTQB - Certified Tester Foundation Level (CTFL)",
+				"date": "July 2019",
+				"icon_url": "BS"
+			}
+		},
+		{
+			"certificate": {
+				"name": "Oracle Certified Associate, Java SE 8 Programmer",
+				"date": "July 2019",
+				"icon_url": "BS"
+			}
+		},
+		{
+			"certificate": {
+				"name": "Professional Scrum Master™ I (PSM I)",
+				"date": "May 2019",
+				"icon_url": "BS"
+			}
+		}
+	]
+}
