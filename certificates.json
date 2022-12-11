@@ -3,28 +3,28 @@
 			"certificate": {
 				"name": "Microsoft Certified Azure Fundamentals",
 				"date": "Jan 2020",
-				"icon_url": "https://github.com/TerryTCelik/terrytcelik.github.io/blob/main/badges/azure_badge.svg"
+				"icon_url": "https://raw.githubusercontent.com/TerryTCelik/terrytcelik.github.io/7518b56a3f8448ca09bb61d71fc0e1e6afc30ad3/badges/azure_badge.svg"
 			}
 		},
 		{
 			"certificate": {
 				"name": "ISTQB - Certified Tester Foundation Level (CTFL)",
 				"date": "July 2019",
-				"icon_url": "https://github.com/TerryTCelik/terrytcelik.github.io/blob/main/badges/istqb_badge.png"
+				"icon_url": "https://github.com/TerryTCelik/terrytcelik.github.io/blob/main/badges/istqb_badge.png?raw=true"
 			}
 		},
 		{
 			"certificate": {
 				"name": "Oracle Certified Associate, Java SE 8 Programmer",
 				"date": "July 2019",
-				"icon_url": "https://github.com/TerryTCelik/terrytcelik.github.io/blob/main/badges/oracle_badge_.png"
+				"icon_url": "https://github.com/TerryTCelik/terrytcelik.github.io/blob/main/badges/oracle_badge_.png?raw=true"
 			}
 		},
 		{
 			"certificate": {
 				"name": "Professional Scrum Master™ I (PSM I)",
 				"date": "May 2019",
-				"icon_url": "https://github.com/TerryTCelik/terrytcelik.github.io/blob/main/badges/scrum_badge.png"
+				"icon_url": "https://github.com/TerryTCelik/terrytcelik.github.io/blob/main/badges/scrum_badge.png?raw=true"
 			}
 		}
 	]
