@@ -1,0 +1,185 @@
+body {
+    background-color: black;
+    font-family: 'Bubblegum Sans';font-size: 22px;
+}
+header {
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#header_image_first{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 20%;
+    z-index: -2;
+    filter: invert(100%);
+}
+
+#header_image_second{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 20%;
+    z-index: -2;
+    filter: invert(100%);
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    padding: 0%;
+    margin-bottom: 5%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-weight: bolder;
+    display: block;
+    padding: 8px;
+    color: brown;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 1ms;
+  }
+
+  li a:hover {
+    color: rgb(30, 164, 221);
+  }
+
+  .active {
+    color: rgb(252, 93, 93);
+  }
+  li a.active:hover {
+    color: rgb(252, 93, 93);
+  }
+
+  main {
+    margin-top: 150px;
+    position: relative;
+    text-align: center;
+  }
+
+
+  .college_box {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    background: radial-gradient(rgb(30, 164, 221), black);
+    text-align: center;
+    border-radius: 5%;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+  .college_box::before{
+    position: absolute;
+    border-radius: 5%;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(black,rgb(30, 164, 221));
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  .college_box:hover::before {
+    opacity: 1;
+  }
+
+  .logo {
+    width: 200px;
+    height: 90px;
+    margin: 5%;
+  }
+
+  #hacettepe_logo{
+    filter: invert(10%);
+  }
+
+  p{
+    color: aliceblue;
+  }
+
+  .box_text{
+    margin: 3%;
+  }
+
+  .edu_header{
+    margin-bottom: 1%;
+    display: flex;
+    margin-left: 10%;
+    color: aliceblue;
+  }
+
+  .cert_box {
+    display: inline-table;
+    background: radial-gradient(rgb(30, 164, 221), black);
+    text-align: center;
+    border-radius: 25px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1%;
+    position: relative;
+    z-index: 1;
+}
+  .cert_box::before{
+    position: absolute;
+    border-radius: 5%;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(black,rgb(30, 164, 221));
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  .cert_box:hover::before {
+    opacity: 1;
+  }
+
+  .logo_cert{
+    width: 100px;
+    height: 100px;
+    display: inline-grid;
+    vertical-align: middle;
+  }
+
+  .cert_text{
+    display: inline-grid;
+    margin: 1%;
+    margin-left: 10%;
+  }
+
+  #certificate_table{
+    margin: auto;
+  }
+
+  #error_message {
+    color: red;
+  }

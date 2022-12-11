@@ -1,43 +1,108 @@
-body{
-    background-color: bisque;
-    display:grid;                     
-    align-items: center;  
-    font-family: monaco, monospace;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.college{
-    background-color: rgb(207, 159, 87);
-    border-radius: 2%;
-    border-style: double;
-    display: inline-block;
-    padding: 2%;
-    margin: 2%;
+html {
+  height: 100%;
+  width: 100%;
 }
 
-#edu_button{
-    background-color: rgb(207, 159, 87);
-    border-radius: 2%;
-    border-style: double;
-    display: inline-block;
-    padding: 1%;
-    margin: 1%;
-    font-weight: bold;
+body {
+  background-color: black;
+  font-family: 'Bubblegum Sans';
+  font-size: 22px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 3s;
+  transition-delay: 250ms;
 }
 
-#edu_button:hover{
-    background-color: rgb(204, 174, 130);
-    border-radius: 2%;
-    border-style: double;
-    display: inline-block;
-    padding: 1%;
-    margin: 1%;
+#background_image_first {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 50%;
+  width: 70%;
+  z-index: -2;
 }
 
-
-.college_text{
-    font-style: italic;
+#background_image_second {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 50%;
+  width: 70%;
+  z-index: -2;
 }
 
-#error_message{
-    color: brown;   
+#name_title {
+  font-size: 200%;
+  color: brown;
+  padding: 8px;
+  margin-bottom: 1%;
+}
+
+#sdet_title {
+  opacity: 0;
+  padding: 8px;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: rgb(30, 164, 221);
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 2s;
+}
+
+#sdet_title:hover {
+  color: aliceblue;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-weight: bolder;
+  display: block;
+  padding: 8px;
+  color: brown;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+  transition-delay: 1ms;
+}
+
+li a:hover {
+  color: rgb(30, 164, 221);
+}
+
+.active {
+  color: rgb(252, 93, 93);
+}
+
+li a.active:hover {
+  color: rgb(252, 93, 93);
 }

@@ -1,0 +1,74 @@
+  #photo_tarik {
+    max-width: 100%;
+    border-radius: 20%;
+    margin-left: 10%;
+    margin-right: 5%;     
+    float: left;
+    width: 200px;
+    height: 300px;
+    filter: opacity(80%);
+    z-index: -5;
+    position: relative;
+  }
+
+  p{
+    color: aliceblue;
+  }
+
+  #about_text {
+    margin-right: 10%;
+    display: flex;
+    padding: 5%;
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    z-index: -5;
+  }
+
+  #about_header{
+    margin-right: 10%;
+    display: flex;
+    padding-left: 0;
+    color: aliceblue;
+    position: relative;
+    z-index: -5;
+  }
+
+  footer {
+    margin-top: 5%;
+    margin-left: 10%;
+    bottom: 5%;
+    display: grid;
+  }
+  #funfact_text {
+    display: block;
+    color: rgb(30, 164, 221);
+  }
+
+@media only screen and (max-width: 800px) {
+  #about_header {
+    display: block;
+    margin: auto;
+  }
+
+  #photo_tarik {
+    float: none;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  #about_text {
+    margin: auto;
+    display: block;
+    padding: 0;
+    position: relative;
+    z-index: -5;
+  }
+  footer {
+    margin: auto;
+    bottom: 5%;
+    display: grid;
+  }
+}
